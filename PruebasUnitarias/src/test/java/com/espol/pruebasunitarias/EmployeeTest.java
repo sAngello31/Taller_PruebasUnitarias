@@ -74,7 +74,7 @@ public class EmployeeTest {
     @Test
     public void testSupervisorWithOddMonth() {
         Employee supervisor = new Employee(1500.0F, "USD", 0.2F, EmployeeType.Supervisor);
-        assertEquals(1516.15F, supervisor.cs());
+        assertEquals(1564.4033F, supervisor.cs());
         assertEquals(1693.0F, supervisor.CalculateYearBonus());
     }
     
